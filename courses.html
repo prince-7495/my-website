@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - Student Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dashboard-layout">
+    <aside class="sidebar">
+        <div class="logo">
+            <h1>Student Portal</h1>
+        </div>
+        <nav class="dashboard-nav">
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="courses.html" class="active">Courses</a></li>
+                <li><a href="attendance.html">Attendance</a></li>
+                <li><a href="results.html">Results</a></li>
+                <li><a href="noticeboard.html">Notice Board</a></li>
+                <li><a href="index.html">Logout</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="dashboard-main">
+        <header class="dashboard-header">
+            <h2>My Courses</h2>
+            <div class="user-info">
+                <span>Welcome, Student</span>
+            </div>
+        </header>
+
+        <div class="courses-grid">
+            <div class="course-card">
+                <div class="course-header">
+                    <h3>Data Structures</h3>
+                    <span class="course-code">CS201</span>
+                </div>
+                <div class="course-info">
+                    <p><strong>Instructor:</strong> Dr. Smith</p>
+                    <p><strong>Schedule:</strong> Mon, Wed 10:00 AM</p>
+                    <p><strong>Credits:</strong> 4</p>
+                </div>
+                <div class="course-actions">
+                    <button class="btn-primary">View Materials</button>
+                    <button class="btn-secondary">View Syllabus</button>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <h3>Database Management</h3>
+                    <span class="course-code">CS202</span>
+                </div>
+                <div class="course-info">
+                    <p><strong>Instructor:</strong> Dr. Johnson</p>
+                    <p><strong>Schedule:</strong> Tue, Thu 2:00 PM</p>
+                    <p><strong>Credits:</strong> 4</p>
+                </div>
+                <div class="course-actions">
+                    <button class="btn-primary">View Materials</button>
+                    <button class="btn-secondary">View Syllabus</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
